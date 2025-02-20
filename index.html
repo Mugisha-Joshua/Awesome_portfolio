@@ -1,162 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Resume</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joshua - Resume</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Your Name</div>
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#experience">Experience</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </div>
-            <div class="burger">☰</div>
-        </nav>
-    </header>
+<header>
+<nav>
+    <a href="#" class="logo">Joshua Mugisha</a>
+    <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="burger">☰</div>
+</nav>
+</header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Your Name</h1>
-            <p>Web Developer & Designer</p>
-            <a href="MUGISHA_JOSHUA_CV.pdf" download class="btn">Download CV</a>
+<section class="hero" id="hero">
+<div class="hero-content">
+    <div class="profile-container">
+        <img src="Passport_photo.jpeg" alt="Joshua Mugisha" class="profile-image">
+    </div>
+    <div class="hero-text">
+        <h1>Joshua Mugisha</h1>
+        <p>Web Developer & Designer</p>
+        <a href="MUGISHA_JOSHUA_CV.pdf" download class="btn">Download CV</a>
+    </div>
+</div>
+</section>
+
+<section id="about">
+<h2 class="section-title">About Me</h2>
+<p>A passionate web developer with expertise in creating responsive and user-friendly websites. Experienced in HTML, CSS, JavaScript, and modern web technologies. I stay forever a learner and I am a learner to learning!</p>
+</section>
+
+<section id="skills">
+<h2 class="section-title">Skills</h2>
+<div class="skills-grid">
+    <div class="skill-card" data-skill="90">
+        <div class="skill-header">
+            <h3>Frontend Development</h3>
+            <div class="skill-percentage">90%</div>
         </div>
-    </section>
-
-    <section id="about">
-        <h2 class="section-title">About Me</h2>
-        <p>A passionate web developer with expertise in creating responsive and user-friendly websites. Experienced in HTML, CSS, JavaScript, and modern web technologies.</p>
-    </section>
-
-    <section id="skills">
-        <h2 class="section-title">Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-card" data-skill="90">
-                <div class="skill-header">
-                    <h3>Frontend Development</h3>
-                    <div class="skill-percentage">90%</div>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-progress"></div>
-                </div>
-                <div class="skill-details">
-                    <p>HTML5, CSS3, JavaScript</p>
-                    <ul class="skill-list">
-                        <li>Responsive Design</li>
-                        <li>Modern CSS</li>
-                        <li>JavaScript ES6+</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="skill-card" data-skill="85">
-                <div class="skill-header">
-                    <h3>Backend Development</h3>
-                    <div class="skill-percentage">85%</div>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-progress"></div>
-                </div>
-                <div class="skill-details">
-                    <p>Node.js, Python, SQL</p>
-                    <ul class="skill-list">
-                        <li>API Development</li>
-                        <li>Database Design</li>
-                        <li>Server Management</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="skill-card" data-skill="80">
-                <div class="skill-header">
-                    <h3>Tools & Technologies</h3>
-                    <div class="skill-percentage">80%</div>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-progress"></div>
-                </div>
-                <div class="skill-details">
-                    <p>Git, VS Code, Webpack</p>
-                    <ul class="skill-list">
-                        <li>Version Control</li>
-                        <li>Build Tools</li>
-                        <li>Development Workflow</li>
-                    </ul>
-                </div>
-            </div>
+        <div class="skill-bar">
+            <div class="skill-progress"></div>
         </div>
-    </section>
-
-    <section id="experience">
-        <h2 class="section-title">Experience</h2>
-        <div class="timeline">
-            <div class="timeline-item">
-                <h3>Senior Web Developer</h3>
-                <p>Company Name | 2020 - Present</p>
-                <p>Led frontend development team in creating responsive web applications.</p>
-            </div>
-            <div class="timeline-item">
-                <h3>Web Developer</h3>
-                <p>Company Name | 2018 - 2020</p>
-                <p>Developed and maintained client websites using modern web technologies.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects">
-        <h2 class="section-title">Projects</h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300' fill='%23ccc'%3E%3Crect width='400' height='300'/%3E%3C/svg%3E" alt="Project 1">
-                <div class="project-content">
-                    <h3>Project Name</h3>
-                    <p>Description of the project and technologies used.</p>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300' fill='%23ccc'%3E%3Crect width='400' height='300'/%3E%3C/svg%3E" alt="Project 2">
-                <div class="project-content">
-                    <h3>Project Name</h3>
-                    <p>Description of the project and technologies used.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2 class="section-title">Contact Me</h2>
-        <form class="contact-form" onsubmit="return validateForm(event)">
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="btn">Send Message</button>
-        </form>
-    </section>
-
-    <div class="modal" id="modal">
-        <div class="modal-content">
-            <span class="close-modal" onclick="closeModal()">×</span>
-            <div class="modal-body">
-                <h2>Download CV</h2>
-                <p>Click the button below to download the CV</p>
-                <a href="MUGISHA_JOSHUA_CV.pdf" download class="btn modal-btn">Download CV</a>
-            </div>
+        <div class="skill-details">
+            <p>HTML5, CSS3, JavaScript</p>
+            <ul class="skill-list">
+                <li>Responsive Design</li>
+                <li>Modern CSS</li>
+                <li>JavaScript ES6+</li>
+            </ul>
         </div>
     </div>
+    <div class="skill-card" data-skill="85">
+        <div class="skill-header">
+            <h3>Backend Development</h3>
+            <div class="skill-percentage">85%</div>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-progress"></div>
+        </div>
+        <div class="skill-details">
+            <p>Node.js, Python, SQL</p>
+            <ul class="skill-list">
+                <li>API Development</li>
+                <li>Database Design</li>
+                <li>Server Management</li>
+            </ul>
+        </div>
+    </div>
+    <div class="skill-card" data-skill="80">
+        <div class="skill-header">
+            <h3>Tools & Technologies</h3>
+            <div class="skill-percentage">80%</div>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-progress"></div>
+        </div>
+        <div class="skill-details">
+            <p>Git, VS Code, Webpack</p>
+            <ul class="skill-list">
+                <li>Version Control</li>
+                <li>Build Tools</li>
+                <li>Development Workflow</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</section>
 
-    <script src="script.js"></script>
+<section id="experience">
+<h2 class="section-title">Experience</h2>
+<div class="timeline">
+    <div class="timeline-item">
+        <h3>Web Development Internship</h3>
+        <p>Bizcotap | Nov 2022 - Feb 2023</p>
+        <p>Took frontend development courses in HTML,CSS and JS while working with the team in creating responsive web applications.</p>
+    </div>
+    <div class="timeline-item">
+        <h3>Software Engineering Student</h3>
+        <p>African Leadership University | Jan 2024 - 2027</p>
+        <p>Learning how to make full stack appications that can function in the real world.</p>
+    </div>
+</div>
+</section>
+
+<section id="projects">
+<h2 class="section-title">Projects</h2>
+<div class="projects-grid">
+    <div class="project-card">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300' fill='%23ccc'%3E%3Crect width='400' height='300'/%3E%3C/svg%3E" alt="Project 1">
+        <div class="project-content">
+            <h3>AirBnB Clone</h3>
+            <p>I worked on the cloning of the famous AIRBNB's website using technologies learned from school!!. Below is the Github link to it! <a href="https://github.com/Mugisha-Joshua/alu-AirBnB_clone.git">Github Link</a></p>
+        </div>
+    </div>
+    <div class="project-card">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300' fill='%23ccc'%3E%3Crect width='400' height='300'/%3E%3C/svg%3E" alt="Project 2">
+        <div class="project-content">
+            <h3>Project Name</h3>
+            <p>Description of the project and technologies used.</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<section id="contact">
+<h2 class="section-title">Contact Me</h2>
+<form class="contact-form" id="contact-form">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn">Send Message</button>
+</form>
+</section>
+
+<!-- Success Message Modal -->
+<div class="success-modal" id="success-modal">
+<div class="success-content">
+    <div class="success-icon">✓</div>
+    <h3>Thank You!</h3>
+    <p>Your message has been sent successfully. I'll get back to you soon!</p>
+</div>
+</div>
+
+<div class="modal" id="modal">
+<div class="modal-content">
+    <span class="close-modal" onclick="closeModal()">×</span>
+    <div class="modal-body">
+        <h2>Download CV</h2>
+        <p>Click the button below to download the CV</p>
+        <a href="MUGISHA_JOSHUA_CV.pdf" download class="btn modal-btn">Download CV</a>
+    </div>
+</div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
